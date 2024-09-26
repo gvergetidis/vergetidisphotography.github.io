@@ -1,0 +1,49 @@
+html { 
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(179, 179, 179);
+}
+
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+header h1{
+    font-size: 4em;
+    padding: 10px;
+    font-family: roboto;
+}
+
+.gallery{
+    margin: 0 7% 0 7%;
+}
+
+.row {
+    display: flex;
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+  
+.item {
+    flex-basis: 0;
+    aspect-ratio: var(--ratio);
+    flex-grow: calc(var(--ratio));
+    padding:0;
+    margin:0;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
