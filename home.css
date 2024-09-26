@@ -1,0 +1,139 @@
+html { 
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+body {
+    padding: 0;
+    margin: 0;   
+}
+.banner{
+    background-image: url(images/Front/DSC_0249r.jpg);
+    background-size: cover;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1 1 auto;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+}
+footer{
+    background-color: rgb(11, 11, 68);
+    padding: 0;
+    margin: 0;
+}
+footer p{
+    color:white;
+}
+
+nav ul{
+  list-style-type: none;
+  background-color: rgb(0, 61, 145);
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+}
+nav li{
+  flex: 1 1 auto;
+  padding: 1em;
+}
+
+nav li a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color:beige;
+  font-family: Roboto;
+}
+
+
+
+
+
+
+
+
+
+
+/* #gallerbtn{
+    background-color: rgb(0, 102, 255);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 15px;
+} */
+
+
+
+
+/* 
+
+.row {
+  display: flex;
+  gap: 1rem;
+}
+
+.item {
+  flex-basis: 0;
+  aspect-ratio: var(--ratio);
+  flex-grow: calc(var(--ratio));
+}
+
+.item img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+body {
+  background: #003;
+  color: #fff;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+
+.row {
+  max-width: 50rem;
+  border: 1px dashed rgb(255 255 255 / 0.4);
+  margin-inline: auto;
+  padding: 0.5rem;
+}
+
+.row + .row {
+  margin-top: 1rem;
+}
+
+.item {
+  background: #f09;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  position: relative;
+}
+
+.item + .item { background: #09f;}
+
+.item + .item + .item { background: #90f;}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #002;
+  color: rgb(255 255 255 / 0.6);
+  
+  a {
+    color: #f09;
+  }
+  
+  p {
+    margin: 1rem;
+  }
+}
+*/
